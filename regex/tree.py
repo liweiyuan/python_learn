@@ -22,3 +22,7 @@ def level_queue(root):
             my_queue.append(node.lChild)
         if node.rChild is not None:
             my_queue.append(node.rChild)
+
+
+##深度用栈来实现(递归)
+##广度用队列实现(FIFO)
